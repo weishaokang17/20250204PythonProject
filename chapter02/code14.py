@@ -18,7 +18,7 @@ print(int('100')+int('200'))
 #print(int('3.14')) # ValueError: invalid literal for int() with base 10: '3.14'
 #print(float('45a.987')) # ValueError: could not convert string to float: '45a.987'
 
-# chr(  )ord()一对、
+# chr(  )  ord( )   一对
 print(ord('杨')) #杨在unicode表中对应的整数值
 print((chr(26472))) # 26472整数在unicode表中对应的字符是什么
 
