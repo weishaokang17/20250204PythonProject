@@ -18,5 +18,7 @@ for i in range(len(t)):
 for index,item in enumerate(t):
     print(index,'---->',item)
 
+print('-' * 90)
+
 for index,item in enumerate(t,start=11): # 序号从11开始
     print(index,'---->',item)
